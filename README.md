@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# 🚍 METRO – Application Mobile de Réservation de Places en Gbaka
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Description
 
-## Get started
+**METRO** est une application mobile innovante permettant aux utilisateurs de réserver des places dans un *Gbaka* de manière simple, rapide et sécurisée.
 
-1. Install dependencies
+L’application facilite la gestion du transport urbain en offrant :
+- La réservation de sièges
+- La visualisation des places disponibles en temps réel
+- Le suivi des véhicules grâce à la géolocalisation
+- La gestion des commandes et des trajets
 
-   ```bash
-   npm install
-   ```
+Notre objectif est de moderniser le transport local en intégrant des solutions numériques adaptées au contexte urbain.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Fonctionnalités principales
 
-In the output, you'll find options to open the app in a
+- ✅ Réservation de place dans un Gbaka
+- ✅ Affichage des places disponibles en temps réel
+- ✅ Suivi des véhicules en direct
+- ✅ Service de géolocalisation
+- ✅ Gestion des commandes
+- ✅ Interface mobile intuitive et responsive
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📍 Géolocalisation & Temps Réel
 
-## Get a fresh project
+L’application intègre un système de géolocalisation permettant :
 
-When you're ready, run:
+- De localiser les véhicules
+- D’estimer la position en temps réel
+- D’optimiser l’expérience utilisateur
+- D’améliorer la gestion des trajets
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Technologies utilisées
 
-## Learn more
+### 📱 Mobile
+- React Native
+- Expo Go
+- JavaScript
+- TypeScript
 
-To learn more about developing your project with Expo, look at the following resources:
+### 🌐 Web / Backend
+- Next.js
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## ⚙️ Installation du projet
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 1️⃣ Cloner le projet
