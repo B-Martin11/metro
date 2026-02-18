@@ -1,58 +1,140 @@
-<<<<<<< HEAD
-# 🚍 METRO – Application Mobile de Réservation de Places en Gbaka
+# 🚍 METRO – Application Mobile de Réservation de Transport Collectif
 
-## 📌 Description
-
-**METRO** est une application mobile innovante permettant aux utilisateurs de réserver des places dans un *Gbaka* de manière simple, rapide et sécurisée.
-
-L’application facilite la gestion du transport urbain en offrant :
-- La réservation de sièges
-- La visualisation des places disponibles en temps réel
-- Le suivi des véhicules grâce à la géolocalisation
-- La gestion des commandes et des trajets
-
-Notre objectif est de moderniser le transport local en intégrant des solutions numériques adaptées au contexte urbain.
+🔗 Repository officiel :
+git clone https://github.com/B-martin11/metro.git
 
 ---
 
-## 🚀 Fonctionnalités principales
+## 📌 Présentation du projet
 
-- ✅ Réservation de place dans un Gbaka
-- ✅ Affichage des places disponibles en temps réel
-- ✅ Suivi des véhicules en direct
-- ✅ Service de géolocalisation
-- ✅ Gestion des commandes
-- ✅ Interface mobile intuitive et responsive
+METRO est une application mobile visant à structurer et moderniser le transport collectif informel en Côte d’Ivoire.
 
----
+Face aux problèmes actuels du transport urbain (insécurité, attentes prolongées, manque de visibilité, variation des prix), METRO propose une solution numérique fiable, accessible et adaptée aux réalités locales.
 
-## 📍 Géolocalisation & Temps Réel
+L’objectif est de rendre les trajets :
 
-L’application intègre un système de géolocalisation permettant :
-
-- De localiser les véhicules
-- D’estimer la position en temps réel
-- D’optimiser l’expérience utilisateur
-- D’améliorer la gestion des trajets
+- Plus fluides
+- Plus sûrs
+- Plus prévisibles
+- Mieux organisés pour les chauffeurs et les passagers
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🎯 Objectifs du projet
 
-### 📱 Mobile
+- Structurer le transport collectif informel
+- Réduire le temps d’attente
+- Améliorer la sécurité des passagers
+- Offrir un suivi en temps réel des véhicules
+- Faciliter la gestion administrative
+- Proposer un système évolutif et inclusif
+
+---
+
+## 👥 Cibles
+
+L’application s’adresse à :
+
+- 🚶 Passagers : réservation et suivi des trajets
+- 👨‍👩‍👧 Parents / proches : suivi des enfants en temps réel
+- 🚐 Chauffeurs : gestion des courses et organisation des arrêts
+- 🛠 Administrateurs : supervision globale du système
+
+---
+
+## 🏗 Architecture du système
+
+L’application repose sur trois espaces distincts :
+
+### 📱 1. Espace Passager
+- Réservation de place
+- Visualisation des places disponibles
+- Suivi GPS en temps réel
+- Historique des trajets
+- Affichage du prix avant départ
+
+### 🚐 2. Espace Chauffeur
+- Liste des passagers
+- Gestion des arrêts
+- Signalement d’incident
+- Validation montée / descente
+
+### 🖥 3. Backend central
+- Gestion des données
+- Authentification sécurisée
+- Synchronisation GPS (WebSockets)
+- Sécurité des comptes
+- Optimisation des performances
+
+---
+
+## 🛠 Technologies utilisées
+
+### 📱 Frontend Mobile
 - React Native
 - Expo Go
 - JavaScript
 - TypeScript
 
-### 🌐 Web / Backend
-- Next.js
+### ⚙ Backend
+- Spring Boot
+- API REST
+- WebSockets (temps réel GPS)
+
+### 🖥 Interface Admin
+- Interface Web classique
+
+### 🔄 Gestion de version
+- Git
+- GitHub
 
 ---
 
-## ⚙️ Installation du projet
+## 📡 Spécificités techniques
 
-### 1️⃣ Cloner le projet
-=======
-# metro
->>>>>>> 0f47d78e00c8b913efcf2fd452c814f24fa10485
+- Optimisation GPS
+- Mode offline partiel
+- Faible consommation de données
+- Sécurisation des comptes et trajets
+- Compatibilité Android (priorité)
+- Compatibilité iOS
+- Interface Web pour l’administration
+
+---
+
+## 📋 Fonctionnalités (Méthode MoSCoW)
+
+### ✅ MUST (Essentielles)
+- Réservation d’une place
+- Suivi GPS du véhicule
+- Affichage du prix avant trajet
+- Voir les places disponibles
+- Historique des déplacements
+- Interface chauffeur
+- Interface admin
+- Authentification sécurisée
+
+### ⚡ SHOULD (Importantes)
+- Estimation heure d’arrivée (ETA)
+- Suivi des enfants
+- Signalement d’incident
+- Notifications temps réel
+
+### ⭐ COULD (Bonus)
+- Paiement mobile intégré
+- Mode offline partiel
+- Statistiques chauffeur
+- Cartographie avancée
+
+### ❌ WON’T (Phase future)
+- Intégration autres transports
+- Tarification dynamique
+- Programme de fidélité
+- Big Data avancé
+- Version desktop passager
+
+---
+
+## ⚙ Installation du projet
+
+### 1️⃣ Cloner le repository
