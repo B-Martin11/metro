@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚍 METRO – Application Mobile de Réservation de Places en Gbaka
 
 ## 📌 Description
@@ -52,3 +53,6 @@ L’application intègre un système de géolocalisation permettant :
 ## ⚙️ Installation du projet
 
 ### 1️⃣ Cloner le projet
+=======
+# metro
+>>>>>>> 0f47d78e00c8b913efcf2fd452c814f24fa10485
